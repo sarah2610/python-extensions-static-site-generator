@@ -7,7 +7,7 @@ from ssg import extensions
 
 class Site:
     def __init__(self, source, dest, parsers=None):
-@@ -27,6 +29,7 @@ def run_parser(self, path):
+        def run_parser(self, path):
             )
 
     def build(self):
